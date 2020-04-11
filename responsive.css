@@ -1,0 +1,181 @@
+@media all and (max-width: 1000px) {
+	.top-wrapper h1 {
+		font-size: 40px;
+	}
+
+	.top-wrapper h2 {
+		font-size: 30px;
+	}
+
+	.top-wrapper h2 span {
+		font-size: 30px;
+	}
+
+	.about-profile h2 {
+		font-size: 35px;
+		letter-spacing: 3px;
+	}
+
+	.about-profile ul {
+		padding-top: 35px;
+	}
+
+	.about-profile li {
+		padding-top: 5px;
+	}
+
+	.about-profile p {
+		font-size: 15px;
+		color: black;
+		padding-top: 10px;
+		padding-bottom: 5px;
+	}
+
+	.about-profile span {
+		font-size: 12px;
+		color: rgba(48, 48, 48, 0.8);
+	}
+
+	.email,
+	.message {
+		width: 70%;
+	}
+
+	.contact-submit {
+		width: 40%;
+	}
+
+	.social-media {
+		font-size: 25px;
+	}
+}
+
+@media all and (max-width: 780px) {
+	body {
+		overflow-x: hidden;
+	}
+
+	header {
+		background-color: rgb(46, 43, 43);
+	}
+
+	.nav-links {
+		position: absolute;
+		right: 0;
+		height: 92vh;
+		top: 4vh;
+		background-color: rgb(46, 43, 43);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+		transform: translateX(100%);
+		transition: transform 0.5s ease-in;
+	}
+
+	.nav-links li {
+		opacity: 0;
+	}
+
+	.logo {
+		color: white;
+	}
+
+	.nav-links a {
+		color: white;
+		padding-top: 25px;
+	}
+
+	.burger {
+		display: block;
+		cursor: pointer;
+		margin-top: 20px;
+	}
+
+	.burger div {
+		background-color: white;
+	}
+
+	.top-wrapper h1 {
+		font-size: 30px;
+	}
+
+	.top-wrapper h2 {
+		font-size: 20px;
+	}
+
+	.top-wrapper span {
+		font-size: 15px;
+	}
+
+	.top-wrapper h2 span {
+		font-size: 20px;
+	}
+
+	.about-image {
+		display: none;
+	}
+
+	.top-wrapper {
+		padding: 180px 0 100px 0;
+	}
+
+	.about-profile {
+		padding-bottom: 0vh;
+	}
+
+	.skill {
+		width: 100%;
+		float: left;
+		padding: 20px 20px;
+	}
+
+	.email,
+	.message {
+		width: 90%;
+	}
+
+	.contact-submit {
+		width: 50%;
+	}
+
+	footer {
+		height: 270px;
+	}
+
+	.footer-logo {
+		width: 100%;
+	}
+
+	.social-media {
+		width: 100%;
+		padding-top: 0px;
+		font-size: 20px;
+	}
+
+	.footer-list {
+		width: 100%;
+	}
+}
+
+.nav-active {
+	transform: translateX(0%);
+}
+
+@media all and (max-width: 470px) {
+	.top-wrapper h1 {
+		font-size: 22px;
+	}
+
+	.top-wrapper h2 {
+		font-size: 18px;
+	}
+
+	.top-wrapper span {
+		font-size: 12px;
+	}
+
+	.top-wrapper h2 span {
+		font-size: 15px;
+	}
+}
